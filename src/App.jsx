@@ -13,6 +13,7 @@ import {
   ShieldCheck
 } from 'lucide-react';
 import logo from './assets/logo.jpeg';
+import matheusPhoto from './assets/matheus.jpeg';
 
 export default function App() {
   return (
@@ -206,7 +207,7 @@ export default function App() {
              <div className="aspect-[4/5] bg-slate-200 rounded-3xl overflow-hidden relative shadow-2xl">
                 {/* Imagem de placeholder para a foto do Matheus */}
                 <img 
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                  src={matheusPhoto} 
                   alt="Matheus Leite Praça" 
                   className="w-full h-full object-cover"
                 />
